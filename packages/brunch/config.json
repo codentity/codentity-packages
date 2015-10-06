@@ -1,0 +1,13 @@
+{
+  "name": "Brunch",
+  "description": "Fast front-end web app build tool with simple declarative config, seamless incremental compilation for rapid development, an opinionated pipeline and workflow, and core support for source maps.",
+  "homepage": "http://brunch.io/",
+  "github": "https://github.com/brunch/brunch",
+  "packageJson": [
+    "brunch"
+  ],
+  "filePath": [
+    "brunch-config.coffee",
+    "brunch-config.js"
+  ]
+}

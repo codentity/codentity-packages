@@ -1,0 +1,13 @@
+{
+  "name": "Bower",
+  "description": "A package manager for the web",
+  "homepage": "http://bower.io/",
+  "github": "https://github.com/bower/bower",
+  "packageJson": [
+    "bower"
+  ],
+  "filePath": [
+    ".bowerrc",
+    "bower.json"
+  ]
+}

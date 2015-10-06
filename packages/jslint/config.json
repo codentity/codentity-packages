@@ -1,0 +1,14 @@
+{
+  "name": "JSLint",
+  "description": "The JavaScript Code Quality Tool",
+  "homepage": "http://jslint.com/",
+  "github": "https://github.com/reid/node-jslint",
+  "packageJson": [
+    "jslint",
+    "grunt-jslint",
+    "gulp-jslint"
+  ],
+  "filePath": [
+    "{.,}jslint.conf"
+  ]
+}

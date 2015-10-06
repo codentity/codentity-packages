@@ -1,0 +1,9 @@
+{
+  "name": "npm",
+  "description": "A package manager for JavaScript",
+  "homepage": "https://www.npmjs.com/",
+  "github": "https://github.com/npm/npm",
+  "filePath": [
+    "package.json"
+  ]
+}

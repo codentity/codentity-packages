@@ -1,0 +1,14 @@
+{
+  "name": "ESLint",
+  "description": "The pluggable linting utility for JavaScript and JSX",
+  "homepage": "http://eslint.org/",
+  "github": "github.com/eslint/eslint",
+  "packageJson": [
+    "eslint",
+    "gulp-eslint",
+    "grunt-eslint"
+  ],
+  "filePath": [
+    ".eslintrc"
+  ]
+}

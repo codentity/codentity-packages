@@ -1,0 +1,14 @@
+{
+  "name": "JSHint",
+  "description": "JSHint is a tool that helps to detect errors and potential problems in your JavaScript code",
+  "homepage": "http://jshint.com/",
+  "github": "https://github.com/jshint/jshint",
+  "packageJson": [
+    "jshint",
+    "grunt-contrib-jshint",
+    "gulp-jshint"
+  ],
+  "filePath": [
+    ".jshintrc"
+  ]
+}

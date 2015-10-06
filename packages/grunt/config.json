@@ -1,0 +1,13 @@
+{
+  "name": "Grunt",
+  "description": "The JavaScript Task Runner",
+  "homepage": "http://gruntjs.com/",
+  "github": "https://github.com/gruntjs/grunt",
+  "packageJson": [
+    "grunt",
+    "grunt-*"
+  ],
+  "filePath": [
+    "{G,g}runtfile.{js,coffee}"
+  ]
+}

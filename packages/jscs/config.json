@@ -1,0 +1,14 @@
+{
+  "name": "JSCS",
+  "description": "JSCS is a code style linter for programmatically enforcing your style guide",
+  "homepage": "http://jscs.info/",
+  "github": "https://github.com/jscs-dev/node-jscs",
+  "packageJson": [
+    "jscs",
+    "grunt-jscs",
+    "gulp-jscs"
+  ],
+  "filePath": [
+    ".jscsrc"
+  ]
+}
