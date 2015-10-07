@@ -2,6 +2,8 @@
 
 Packages (config/icons/tests) for Codentity.
 
+[![Circle CI](https://circleci.com/gh/codentity/codentity-packages.svg?style=svg&circle-token=29150bed184f3079d482ad3aeec08d7c7cee8adb)](https://circleci.com/gh/codentity/codentity-packages)
+
 ## Installation
 
 Clone the repo:
