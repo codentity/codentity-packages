@@ -3,39 +3,34 @@
 let fs = require('fs');
 let path = require('path');
 let Codentity = require('codentity');
-let CodentityPackages = require('../../lib/CodentityPackages');
+let PackageHelper = require('../helpers/PackageHelper');
 
 let codentity = new Codentity({
-  packages: CodentityPackages.loadSync()
+  packages: PackageHelper.loadSync()
 });
 
 const PACKAGES_DIR = path.resolve(__dirname, '../../packages');
 
 describe('Codentity', function () {
-  if (process.env.PACKAGE) return testPackage(process.env.PACKAGE)
+  if (process.env.PACKAGE) return testPackage(process.env.PACKAGE);
   testAllPackages();
 });
 
 function testAllPackages () {
   codentity.packages().forEach(function (pkg) {
-    testPackage(pkg.name);
+    testPackage(pkg.id);
   });
 }
 
-function testPackage (pkgName) {
-  describe(`"${pkgName}" package`, function () {
-    getScenariosForPackage(pkgName).forEach(function (scenario) {
-      pkgName = pkgName.toLowerCase();
-      runScenario(pkgName, scenario);
+function testPackage (pkgId) {
+  describe(`"${pkgId}" package`, function () {
+    PackageHelper.getScenario(pkgId).forEach(function (scenario) {
+      runScenario(pkgId, scenario);
     });
   });
 }
 
-function getScenariosForPackage (pkgName) {
-  return require(`${PACKAGES_DIR}/${pkgName}/scenarios.js`);
-}
-
-function runScenario (pkgName, scenario) {
+function runScenario (pkgId, scenario) {
   it(scenario.description, function () {
     var output;
     try {
@@ -44,6 +39,6 @@ function runScenario (pkgName, scenario) {
       console.log(err.stack);
       process.exit(1);
     }
-    output = expect(output[pkgName]).to.deep.have.members(scenario.output);
+    output = expect(output[pkgId]).to.deep.have.members(scenario.output);
   });
 }
