@@ -2,11 +2,9 @@
   "name": "codentity-packages",
   "version": "0.0.0-pre1",
   "description": "Packages (config/icons/tests) for Codentity",
-  "main": "lib/CodentityPackages.js",
-  "dependencies": {
-    "q": "^1.4.1"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "q": "^1.4.1",
     "chai": "^3.3.0",
     "codentity": "latest",
     "eslint": "^1.6.0",
