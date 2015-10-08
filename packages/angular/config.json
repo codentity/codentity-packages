@@ -1,0 +1,17 @@
+{
+  "name":"Angular",
+  "description": "HTML enhanced for web apps",
+  "homepage":"http://angularjs.org/",
+  "github": "https://github.com/angular/angular.js",
+  "bowerJson":[
+    "angular",
+    "angular-latest"
+  ],
+  "packageJson": [
+    "angular"
+  ],
+  "filePath": [
+    "**/angular.js",
+    "**/angular.min.js"
+  ]
+}
