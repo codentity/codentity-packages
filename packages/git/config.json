@@ -4,6 +4,7 @@
   "homepage": "http://git-scm.com/",
   "github": "https://github.com/git/git",
   "filePath": [
+    ".gitattributes",
     ".gitignore",
     ".git/*"
   ]
