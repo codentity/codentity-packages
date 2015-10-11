@@ -5,8 +5,10 @@ let path = require('path');
 let Codentity = require('codentity');
 let PackageHelper = require('../helpers/PackageHelper');
 
+const PACKAGES = PackageHelper.loadSync()
+
 let codentity = new Codentity({
-  packages: PackageHelper.loadSync()
+  packages: PACKAGES
 });
 
 const PACKAGES_DIR = path.resolve(__dirname, '../../packages');
@@ -17,7 +19,7 @@ describe('Codentity', function () {
 });
 
 function testAllPackages () {
-  codentity.packages().forEach(function (pkg) {
+  PACKAGES.forEach(function (pkg) {
     testPackage(pkg.id);
   });
 }
@@ -31,14 +33,13 @@ function testPackage (pkgId) {
 }
 
 function runScenario (pkgId, scenario) {
-  it(scenario.description, function () {
-    var output;
-    try {
-      output = codentity.analyze(scenario.input);
-    } catch (err) {
+  it(scenario.description, function (done) {
+    codentity.analyze(scenario.input).then((output) => {
+      expect(output[pkgId]).to.deep.have.members(scenario.output);
+      done();
+    }).catch((err) => {
       console.log(err.stack);
       process.exit(1);
-    }
-    output = expect(output[pkgId]).to.deep.have.members(scenario.output);
+    })
   });
 }

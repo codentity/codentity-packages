@@ -65,3 +65,8 @@ module.exports = [{
   }]
 }]
 ```
+
+## TODO
+
+1. Change Codentity analyzer to use `pkg.id` instead of `pkg.name.toLowerCase()`
+2. Change "Angular" back to "AngularJS"
