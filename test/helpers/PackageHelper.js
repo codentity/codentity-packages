@@ -2,7 +2,6 @@
 
 let path = require('path');
 let fs = require('fs');
-let q = require('q');
 
 const PACKAGE_DIR = path.resolve(__dirname, '../../packages');
 

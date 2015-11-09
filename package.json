@@ -4,7 +4,6 @@
   "description": "Packages (config/icons/tests) for Codentity",
   "dependencies": {},
   "devDependencies": {
-    "q": "^1.4.1",
     "chai": "^3.3.0",
     "codentity": "latest",
     "eslint": "^1.6.0",
@@ -17,5 +16,17 @@
     "node": "4.x"
   },
   "author": "jack@applyr.com",
-  "license": "MIT"
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codentity/codentity-packages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codentity/codentity-packages/issues"
+  },
+  "homepage": "https://github.com/codentity/codentity-packages#readme"
 }
