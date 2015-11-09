@@ -1,0 +1,11 @@
+{
+  "name": "Browserify",
+  "description": "browser-side require() the node.js way",
+  "homepage": "http://browserify.org/",
+  "github": "https://github.com/substack/node-browserify",
+  "packageJson": [
+    "browserify",
+    "gulp-browserify",
+    "grunt-browserify"
+  ]
+}
