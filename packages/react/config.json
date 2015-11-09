@@ -1,0 +1,12 @@
+{
+  "name": "React",
+  "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+  "homepage": "https://facebook.github.io/react/",
+  "github": "https://github.com/facebook/react",
+  "packageJson": [
+    "react"
+  ],
+  "bowerJson": [
+    "react"
+  ]
+}
