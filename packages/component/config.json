@@ -1,0 +1,15 @@
+{
+  "name": "Component",
+  "description": "frontend package manager and build tool for modular web applications",
+  "homepage": "https://github.com/componentjs/component",
+  "github": "https://github.com/componentjs/component",
+  "packageJson": [
+    "component"
+  ],
+  "filePath": [
+    "component.json"
+  ],
+  "notes": [
+    "Component has been deprecated (as of mid-2015)"
+  ]
+}
