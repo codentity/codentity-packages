@@ -1,0 +1,16 @@
+{
+  "name": "Backbone.js",
+  "description": "Give your JS App some Backbone with Models, Views, Collections, and Events",
+  "homepage": "http://backbonejs.org/",
+  "github": "https://github.com/jashkenas/backbone",
+  "bowerJson": [
+    "backbone"
+  ],
+  "packageJson": [
+    "backbone"
+  ],
+  "filePath": [
+    "**/backbone.js",
+    "**/backbone-min.js"
+  ]
+}
