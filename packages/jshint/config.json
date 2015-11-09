@@ -9,6 +9,7 @@
     "gulp-jshint"
   ],
   "filePath": [
-    ".jshintrc"
+    ".jshintrc",
+    ".jshintignore"
   ]
 }

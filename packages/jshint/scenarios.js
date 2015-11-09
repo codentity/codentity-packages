@@ -31,6 +31,7 @@ module.exports = [{
   input: {
     filePaths: [
       '.jshintrc',
+      '.jshintignore',
       'not-root/.jshintrc',
       '.JSHINT'
     ]
@@ -38,5 +39,8 @@ module.exports = [{
   output: [{
     src: 'file',
     filePath: '.jshintrc'
+  }, {
+    src: 'file',
+    filePath: '.jshintignore'
   }]
 }];
