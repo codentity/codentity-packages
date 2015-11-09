@@ -1,0 +1,14 @@
+{
+  "name": "Webpack",
+  "description": "A bundler for javascript and friends.",
+  "homepage": "https://webpack.github.io/",
+  "github": "https://github.com/webpack/webpack",
+  "packageJson": [
+    "webpack",
+    "grunt-webpack",
+    "gulp-webpack"
+  ],
+  "filePath": [
+    "webpack.config.js"
+  ]
+}
