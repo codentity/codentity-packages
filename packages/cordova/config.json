@@ -1,0 +1,12 @@
+{
+  "name": "Cordova",
+  "description": "Mobile apps with HTML, CSS & JS",
+  "homepage": "http://cordova.apache.org/",
+  "github": null,
+  "bowerJson": [
+    "cordova"
+  ],
+  "packageJson": [
+    "cordova"
+  ]
+}
