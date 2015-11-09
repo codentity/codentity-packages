@@ -1,0 +1,14 @@
+{
+  "name": "CoffeeScript",
+  "description": "Unfancy JavaScript",
+  "homepage": "http://coffeescript.org/",
+  "github": "https://github.com/jashkenas/coffeescript",
+  "packageJson": [
+    "coffee-script",
+    "grunt-contrib-coffee",
+    "gulp-coffee"
+  ],
+  "filePath": [
+    "**/*.coffee"
+  ]
+}
