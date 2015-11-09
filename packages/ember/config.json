@@ -1,0 +1,19 @@
+{
+  "name": "Ember.js",
+  "description": "A framework for creating ambitious web applications",
+  "homepage": "http://emberjs.com/",
+  "github": "https://github.com/emberjs/ember.js/",
+  "packageJson": [
+    "ember",
+    "ember-cli"
+  ],
+  "bowerJson": [
+    "ember"
+  ],
+  "filePath": [
+    "**/ember.js",
+    "**/ember.min.js",
+    "**/ember.prod.js",
+    "**/ember.debug.js"
+  ]
+}
