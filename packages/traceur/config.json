@@ -1,0 +1,10 @@
+{
+  "name": "Traceur",
+  "description": "Traceur is a JavaScript.next-to-JavaScript-of-today compiler",
+  "homepage": "https://github.com/google/traceur-compiler/wiki",
+  "github": "https://github.com/google/traceur-compiler",
+  "packageJson": [
+    "traceur",
+    "gulp-traceur"
+  ]
+}
