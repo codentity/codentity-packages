@@ -5,5 +5,8 @@
   "github": "https://github.com/jspm/jspm-cli",
   "packageJson": [
     "jspm"
+  ],
+  "notes": [
+    "Codentity does not attribute `config.js` to jspm, as the file name is too generic."
   ]
 }
