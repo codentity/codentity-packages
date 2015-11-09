@@ -5,7 +5,9 @@ let path = require('path');
 let Codentity = require('codentity');
 let PackageHelper = require('../helpers/PackageHelper');
 
-const PACKAGES = PackageHelper.loadSync()
+const PACKAGES = PackageHelper.loadSync();
+
+console.log(`---> ${PACKAGES.length} packages found`);
 
 let codentity = new Codentity({
   packages: PACKAGES
