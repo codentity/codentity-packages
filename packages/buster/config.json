@@ -1,0 +1,9 @@
+{
+  "name": "Buster.JS",
+  "description": "A powerful suite of automated test tools for JavaScript.",
+  "homepage": "http://docs.busterjs.org/",
+  "github": "https://github.com/busterjs/buster",
+  "packageJson": [
+    "buster"
+  ]
+}
