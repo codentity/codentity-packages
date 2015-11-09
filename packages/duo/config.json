@@ -1,0 +1,9 @@
+{
+  "name": "Duo",
+  "description": "A next-generation package manager for the front-end",
+  "homepage": "http://duojs.org/",
+  "github": "https://github.com/duojs/duo",
+  "packageJson": [
+    "duo"
+  ]
+}
