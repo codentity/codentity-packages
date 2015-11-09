@@ -1,0 +1,15 @@
+{
+  "name": "Babel",
+  "description": "Babel is a compiler for writing next generation JavaScript",
+  "homepage":"https://babeljs.io/",
+  "github": "https://github.com/babel/babel",
+  "packageJson": [
+    "babel",
+    "grunt-babel",
+    "gulp-babel",
+    "babel-preset-*"
+  ],
+  "filePath": [
+    ".babelrc"
+  ]
+}
