@@ -34,10 +34,16 @@ function testPackage (pkgId) {
 
 function runScenario (pkgId, scenario) {
   it(scenario.description, function (done) {
+    var outputForPkg;
     codentity.analyze(scenario.input).then((output) => {
-      expect(output[pkgId]).to.deep.have.members(scenario.output);
+      outputForPkg = output[pkgId];
+      expect(outputForPkg).to.deep.have.members(scenario.output);
       done();
     }).catch((err) => {
+      console.log('EXPECTED:');
+      console.dir(scenario.output);
+      console.log('ACTUAL:');
+      console.dir(outputForPkg);
       console.log(err.stack);
       process.exit(1);
     })
