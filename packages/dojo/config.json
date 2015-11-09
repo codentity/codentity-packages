@@ -1,0 +1,19 @@
+{
+  "name": "Dojo",
+  "description": "A JavaScript toolkit that saves you time and scales with your development process.",
+  "homepage": "http://dojotoolkit.org/",
+  "github": "https://github.com/dojo/dojo",
+  "bowerJson": [
+    "dojo"
+  ],
+  "packageJson": [
+    "dojo"
+  ],
+  "filePath": [
+    "**/dojo.js.uncompressed.js",
+    "**/dojo.js"
+  ],
+  "notes": [
+    "Dojo recommends Bower-installing directly from Github (i.e. dojo/dojo)"
+  ]
+}
