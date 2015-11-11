@@ -1,0 +1,19 @@
+{
+  "name": "jQuery Mobile",
+  "description": "Touch-Optimized Web Framework for Smartphones & Tablets",
+  "homepage": "https://jquerymobile.com",
+  "github": "https://github.com/jquery/jquery-mobile",
+  "packageJson": [
+    "jquery-mobile"
+  ],
+  "bowerJson": [
+    "jquery-mobile"
+  ],
+  "filePath": [
+    "**/jquery.mobile-*.*.*.css",
+    "**/jquery.mobile-*.*.*.js"
+  ],
+  "notes": [
+    "The downloads page for jQuery Mobile links to files with version details in the file name(s)"
+  ]
+}
