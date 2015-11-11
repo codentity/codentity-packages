@@ -1,0 +1,12 @@
+{
+  "name": "Protrator",
+  "description": "E2E test framework for Angular apps",
+  "homepage": "http://www.protractortest.org/",
+  "github": "https://github.com/angular/protractor",
+  "packageJson": [
+    "protractor"
+  ],
+  "notes": [
+    "Protractor suggests using a file called `conf.js`, however this is too generic to accurately identify"
+  ]
+}
