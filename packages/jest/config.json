@@ -1,0 +1,9 @@
+{
+  "name": "Jest",
+  "description": "Painless JavaScript Unit Testing built on top of the Jasmine test framework.",
+  "homepage": "http://facebook.github.io/jest/",
+  "github": "https://github.com/facebook/jest",
+  "packageJson": [
+    "jest-cli"
+  ]
+}
