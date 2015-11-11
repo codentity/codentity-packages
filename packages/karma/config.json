@@ -1,0 +1,15 @@
+{
+  "name": "Karma",
+  "description": "Spectacular Test Runner for JavaScript",
+  "homepage": "http://karma-runner.github.io/",
+  "github": "https://github.com/karma-runner/karma",
+  "packageJson": [
+    "karma",
+    "grunt-karma",
+    "gulp-karma"
+  ],
+  "filePath": [
+    "**/karma.conf.js",
+    "**/karma.conf.coffee"
+  ]
+}
