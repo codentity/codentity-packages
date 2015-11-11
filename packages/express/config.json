@@ -1,0 +1,9 @@
+{
+  "name": "express",
+  "description": null,
+  "homepage": "http://expressjs.com/",
+  "github": null,
+  "packageJson": [
+    "express"
+  ]
+}
