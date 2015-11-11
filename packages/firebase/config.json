@@ -1,0 +1,15 @@
+{
+  "name": "Firebase",
+  "description": "A powerful platform for your mobile or web application",
+  "homepage": "https://www.firebase.com",
+  "github": null,
+  "packageJson": [
+    "firebase"
+  ],
+  "bowerJson": [
+    "firebase"
+  ],
+  "filePath": [
+    "firebase.json"
+  ]
+}
