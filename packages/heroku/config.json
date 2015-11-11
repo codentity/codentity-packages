@@ -1,0 +1,12 @@
+{
+  "name": "Heroku",
+  "description": "Heroku is a platform as a service (PaaS) that enables developers to build and run applications entirely in the cloud.",
+  "homepage": "https://www.heroku.com/",
+  "github": null,
+  "filePath": [
+    "Procfile"
+  ],
+  "notes": [
+    "This may over-identify all Foreman applications as Heroku apps"
+  ]
+}
