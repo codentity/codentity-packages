@@ -1,0 +1,18 @@
+{
+  "name": "QUnit",
+  "description": "An easy-to-use JavaScript Unit Testing framework.",
+  "homepage": "http://qunitjs.com/",
+  "github": "https://github.com/jquery/qunit",
+  "packageJson": [
+    "qunitjs"
+  ],
+  "bowerJson": [
+    "qunit"
+  ],
+  "filePath": [
+    "**/qunit-*.*.*.{js,css}"
+  ],
+  "notes": [
+    "The download links on the QUnit hompage contain version numbers in their file names"
+  ]
+}
