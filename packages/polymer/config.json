@@ -1,0 +1,12 @@
+{
+  "name": "Polymer",
+  "description": "Build modern apps using web components",
+  "homepage": "https://www.polymer-project.org/",
+  "github": "https://github.com/Polymer/polymer",
+  "bowerJson": [
+    "polymer"
+  ],
+  "notes": [
+    "Polymer recommends downloading via Bower"
+  ]
+}
