@@ -1,0 +1,19 @@
+{
+  "name": "Marionette",
+  "description": "Marionette simplifies your Backbone application code with robust views and architecture solutions.",
+  "homepage": "http://marionettejs.com/",
+  "github": "https://github.com/marionettejs/backbone.marionette",
+  "packageJson": [
+    "backbone.marionette"
+  ],
+  "bowerJson": [
+    "marionette",
+    "backbone.marionette"
+  ],
+  "filePath": [
+    "**/backbone.marionette{.min,}.js"
+  ],
+  "notes": [
+    "The official website suggests installing `backbone` via Bower, whereas `backbone.marionette` is the name of the package in the project's `bower.json` on Github"
+  ]
+}
