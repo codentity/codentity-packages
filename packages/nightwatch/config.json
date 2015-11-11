@@ -1,0 +1,9 @@
+{
+  "name": "Nightwatch",
+  "description": "Browser automated testing done easy.",
+  "homepage": "http://nightwatchjs.org/",
+  "github": "https://github.com/nightwatchjs/nightwatch",
+  "packageJson": [
+    "nightwatch"
+  ]
+}
