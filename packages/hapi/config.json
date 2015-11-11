@@ -1,0 +1,9 @@
+{
+  "name": "Hapi",
+  "description": "Web and services application framework",
+  "homepage": "http://hapijs.com/",
+  "github": "https://github.com/hapijs/hapi",
+  "packageJson": [
+    "hapi"
+  ]
+}
