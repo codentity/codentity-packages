@@ -1,0 +1,12 @@
+{
+  "name": "Jake",
+  "description": null,
+  "homepage": null,
+  "github": null,
+  "packageJson": [
+    "jake"
+  ],
+  "filePath": [
+    "Jakefile"
+  ]
+}
