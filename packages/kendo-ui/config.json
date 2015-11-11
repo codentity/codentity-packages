@@ -1,0 +1,13 @@
+{
+  "name": "Kendo UI",
+  "description": "Everything for building web and mobile apps with HTML5 and JavaScript",
+  "homepage": "http://www.telerik.com/kendo-ui",
+  "github": "https://github.com/telerik/kendo-ui-core",
+  "bowerJson": [
+    "kendo-ui-core"
+  ],
+  "filePath": [
+    "**/kendo.all.min.js",
+    "**/kendo.ui.core.min.js"
+  ]
+}
