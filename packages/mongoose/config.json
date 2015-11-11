@@ -1,0 +1,9 @@
+{
+  "name": "Mongoose",
+  "description": "Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.",
+  "homepage": "http://mongoosejs.com/",
+  "github": "https://github.com/Automattic/mongoose",
+  "packageJson": [
+    "mongoose"
+  ]
+}
