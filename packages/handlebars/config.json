@@ -1,0 +1,17 @@
+{
+  "name": "Handlebars",
+  "description": "Minimal Templating on Steroids",
+  "homepage": "http://www.handlebarsjs.com/",
+  "github": "https://github.com/wycats/handlebars.js/",
+  "packageJson": [
+    "handlebars",
+    "hbs"
+  ],
+  "bowerJson": [
+    "handlebars",
+    "handlebars.js"
+  ],
+  "filePath": [
+    "**/handlebars-v*.*.*.js"
+  ]
+}
