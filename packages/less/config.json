@@ -1,0 +1,17 @@
+{
+  "name": "LESS",
+  "description": "Leaner CSS",
+  "homepage": "http://lesscss.org/",
+  "github": "https://github.com/less/less.js",
+  "packageJson": [
+    "less",
+    "gulp-less",
+    "grunt-contrib-less"
+  ],
+  "bowerJson": [
+    "less"
+  ],
+  "filePath": [
+    "**/*.less"
+  ]
+}
