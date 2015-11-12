@@ -1,0 +1,12 @@
+{
+  "name": "Yo",
+  "description": "CLI tool for running Yeoman generators",
+  "homepage": "http://yeoman.io/",
+  "github": "https://github.com/yeoman/yo",
+  "packageJson": [
+    "yo"
+  ],
+  "filePath": [
+    ".yo-rc.json"
+  ]
+}
