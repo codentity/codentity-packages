@@ -1,0 +1,9 @@
+{
+  "name": "Travis CI",
+  "description":  "Easily sync your GitHub projects with Travis CI and you’ll be testing your code in minutes!",
+  "homepage": "https://travis-ci.org/",
+  "github": null,
+  "filePath": [
+    ".travis.yml"
+  ]
+}
