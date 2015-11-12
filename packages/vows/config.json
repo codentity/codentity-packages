@@ -1,0 +1,9 @@
+{
+  "name": "Vows",
+  "description": "Asynchronous BDD & continuous testing for node.js",
+  "homepage": "http://vowsjs.org/",
+  "github": "https://github.com/vowsjs/vows",
+  "packageJson": [
+    "vows"
+  ]
+}
