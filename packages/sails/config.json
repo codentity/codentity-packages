@@ -1,0 +1,12 @@
+{
+  "name": "Sails.js",
+  "description":  "Realtime MVC Framework for Node.js",
+  "homepage": "http://sailsjs.org/",
+  "github": "https://github.com/balderdashy/sails",
+  "packageJson": [
+    "sails"
+  ],
+  "filePath": [
+    ".sailsrc"
+  ]
+}
