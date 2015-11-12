@@ -1,0 +1,12 @@
+{
+  "name": "YUI",
+  "description": "A free, open source JavaScript and CSS library for building richly interactive web applications.",
+  "homepage": "http://yuilibrary.com/",
+  "github": "https://github.com/yui/yui3",
+  "bowerJson": [
+    "yui"
+  ],
+  "packageJson": [
+    "yui"
+  ]
+}
