@@ -10,7 +10,7 @@
   "bowerJson": [
     "ember"
   ],
-  "filePath": [
+  "filePaths": [
     "**/ember.js",
     "**/ember.min.js",
     "**/ember.prod.js",

@@ -3,7 +3,7 @@
   "description": "Continuous Integration and Deployment",
   "homepage": "https://circleci.com/",
   "github": null,
-  "filePath": [
+  "filePaths": [
     "circle.yml"
   ]
 }

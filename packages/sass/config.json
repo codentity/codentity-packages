@@ -10,7 +10,7 @@
     "grunt-sass",
     "sass"
   ],
-  "filePath": [
+  "filePaths": [
     "**/*.{sass,scss}"
   ]
 }

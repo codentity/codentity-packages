@@ -9,7 +9,7 @@
     "gulp-babel",
     "babel-preset-*"
   ],
-  "filePath": [
+  "filePaths": [
     ".babelrc"
   ]
 }

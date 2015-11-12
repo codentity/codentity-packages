@@ -8,7 +8,7 @@
     "gulp-eslint",
     "grunt-eslint"
   ],
-  "filePath": [
+  "filePaths": [
     ".eslintrc"
   ]
 }

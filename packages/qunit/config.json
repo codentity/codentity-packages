@@ -9,7 +9,7 @@
   "bowerJson": [
     "qunit"
   ],
-  "filePath": [
+  "filePaths": [
     "**/qunit-*.*.*.{js,css}"
   ],
   "notes": [

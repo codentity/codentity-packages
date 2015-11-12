@@ -8,7 +8,7 @@
     "grunt-webpack",
     "gulp-webpack"
   ],
-  "filePath": [
+  "filePaths": [
     "webpack.config.js"
   ]
 }

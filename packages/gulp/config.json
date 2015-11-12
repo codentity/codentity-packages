@@ -7,7 +7,7 @@
     "gulp",
     "gulp-*"
   ],
-  "filePath": [
+  "filePaths": [
     "{G,g}ulpfile.{js,coffee}"
   ]
 }

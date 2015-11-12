@@ -8,7 +8,7 @@
     "grunt-karma",
     "gulp-karma"
   ],
-  "filePath": [
+  "filePaths": [
     "**/karma.conf.js",
     "**/karma.conf.coffee"
   ]

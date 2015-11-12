@@ -9,7 +9,7 @@
   "bowerJson": [
     "requirejs"
   ],
-  "filePath": [
+  "filePaths": [
     "*/**/require.js"
   ],
   "notes": [

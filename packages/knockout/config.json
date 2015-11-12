@@ -9,7 +9,7 @@
   "bowerJson": [
     "knockout"
   ],
-  "filePath": [
+  "filePaths": [
     "**/knockout-*.*.*.js"
   ]
 }

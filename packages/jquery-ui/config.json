@@ -9,7 +9,7 @@
   "bowerJson": [
     "jquery-ui"
   ],
-  "filePath": [
+  "filePaths": [
     "**/jquery-ui.css",
     "**/jquery-ui.js",
     "**/jquery-ui.min.css",

@@ -11,7 +11,7 @@
   "bowerJson": [
     "less"
   ],
-  "filePath": [
+  "filePaths": [
     "**/*.less"
   ]
 }

@@ -6,7 +6,7 @@
   "bowerJson": [
     "kendo-ui-core"
   ],
-  "filePath": [
+  "filePaths": [
     "**/kendo.all.min.js",
     "**/kendo.ui.core.min.js"
   ]

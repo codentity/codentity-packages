@@ -6,7 +6,7 @@
   "packageJson": [
     "yo"
   ],
-  "filePath": [
+  "filePaths": [
     ".yo-rc.json"
   ]
 }

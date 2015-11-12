@@ -6,7 +6,7 @@
   "packageJson": [
     "stylus"
   ],
-  "filePath": [
+  "filePaths": [
     "**/*.styl"
   ],
   "notes": [

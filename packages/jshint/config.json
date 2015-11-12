@@ -8,7 +8,7 @@
     "grunt-contrib-jshint",
     "gulp-jshint"
   ],
-  "filePath": [
+  "filePaths": [
     ".jshintrc",
     ".jshintignore"
   ]

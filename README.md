@@ -39,7 +39,7 @@ in the other packages.
   "github": "",
   "bowerJson": ["PKG_NAME"],
   "packageJson": ["PKG_NAME"],
-  "filePath": ["FILE_PATH"]
+  "filePaths": ["FILE_PATH"]
 }
 ```
 

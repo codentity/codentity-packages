@@ -6,7 +6,7 @@
   "packageJson": [
     "jade"
   ],
-  "filePath": [
+  "filePaths": [
     "**/*.jade"
   ]
 }

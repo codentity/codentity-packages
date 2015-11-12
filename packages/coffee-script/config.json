@@ -8,7 +8,7 @@
     "grunt-contrib-coffee",
     "gulp-coffee"
   ],
-  "filePath": [
+  "filePaths": [
     "**/*.coffee"
   ]
 }

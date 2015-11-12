@@ -9,7 +9,7 @@
   "bowerJson": [
     "foundation"
   ],
-  "filePath": [
+  "filePaths": [
     "**/foundation.min.js",
     "**/foundation.js",
     "**/foundation.min.css",

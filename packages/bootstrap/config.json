@@ -9,7 +9,7 @@
   "bowerJson": [
     "bootstrap"
   ],
-  "filePath": [
+  "filePaths": [
     "**/bootstrap.js",
     "**/bootstrap.min.js",
     "**/bootstrap.css",

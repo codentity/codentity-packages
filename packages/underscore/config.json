@@ -9,7 +9,7 @@
   "packageJson": [
     "underscore"
   ],
-  "filePath": [
+  "filePaths": [
     "**/underscore.js",
     "**/underscore.min.js"
   ]

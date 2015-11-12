@@ -3,7 +3,7 @@
   "description": "The JavaScript App Platform",
   "homepage": "https://www.meteor.com/",
   "github": "https://github.com/meteor/meteor",
-  "filePath": [
+  "filePaths": [
     ".meteor/**"
   ]
 }

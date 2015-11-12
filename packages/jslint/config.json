@@ -8,7 +8,7 @@
     "grunt-jslint",
     "gulp-jslint"
   ],
-  "filePath": [
+  "filePaths": [
     "{.,}jslint.conf"
   ]
 }

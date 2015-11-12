@@ -9,7 +9,7 @@
   "bowerJson": [
     "jquery"
   ],
-  "filePath": [
+  "filePaths": [
     "**/jquery.css",
     "**/jquery.js",
     "**/jquery.min.css",

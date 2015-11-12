@@ -9,7 +9,7 @@
   "packageJson": [
     "dojo"
   ],
-  "filePath": [
+  "filePaths": [
     "**/dojo.js.uncompressed.js",
     "**/dojo.js"
   ],

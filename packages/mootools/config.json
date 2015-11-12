@@ -6,7 +6,7 @@
   "bowerJson": [
     "mootools"
   ],
-  "filePath": [
+  "filePaths": [
     "**/MooTools-Core-*.*.*.js"
   ]
 }

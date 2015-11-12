@@ -11,7 +11,7 @@
     "handlebars",
     "handlebars.js"
   ],
-  "filePath": [
+  "filePaths": [
     "**/handlebars-v*.*.*.js"
   ]
 }

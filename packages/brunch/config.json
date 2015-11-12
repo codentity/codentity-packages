@@ -6,7 +6,7 @@
   "packageJson": [
     "brunch"
   ],
-  "filePath": [
+  "filePaths": [
     "brunch-config.coffee",
     "brunch-config.js"
   ]

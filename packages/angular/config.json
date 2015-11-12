@@ -10,7 +10,7 @@
   "packageJson": [
     "angular"
   ],
-  "filePath": [
+  "filePaths": [
     "**/angular.js",
     "**/angular.min.js"
   ]

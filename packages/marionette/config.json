@@ -10,7 +10,7 @@
     "marionette",
     "backbone.marionette"
   ],
-  "filePath": [
+  "filePaths": [
     "**/backbone.marionette{.min,}.js"
   ],
   "notes": [

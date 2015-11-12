@@ -9,7 +9,7 @@
   "bowerJson": [
     "jquery-mobile"
   ],
-  "filePath": [
+  "filePaths": [
     "**/jquery.mobile-*.*.*.css",
     "**/jquery.mobile-*.*.*.js"
   ],
