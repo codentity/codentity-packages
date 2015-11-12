@@ -1,0 +1,15 @@
+{
+  "name": "lodash",
+  "description": "A JavaScript utility library delivering consistency, modularity, performance, & extras.",
+  "homepage": "https://lodash.com/",
+  "github": "https://github.com/lodash/lodash",
+  "bowerJson":[
+    "lodash"
+  ],
+  "packageJson": [
+    "lodash"
+  ],
+  "filePath": [
+    "**/lodash.js"
+  ]
+}
