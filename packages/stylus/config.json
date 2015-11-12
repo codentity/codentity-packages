@@ -1,0 +1,15 @@
+{
+  "name": "Stylus",
+  "description":  "Expressive, dynamic, robust CSS",
+  "homepage": "http://learnboost.github.io/stylus/",
+  "github": "https://github.com/stylus/stylus",
+  "packageJson": [
+    "stylus"
+  ],
+  "filePath": [
+    "**/*.styl"
+  ],
+  "notes": [
+    "According to [Treehouse](http://blog.teamtreehouse.com/getting-started-stylus) files should end with `*.styl`"
+  ]
+}
