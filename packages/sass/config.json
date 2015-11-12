@@ -1,0 +1,16 @@
+{
+  "name": "Sass",
+  "description":  "Sass makes CSS fun again.",
+  "homepage": "http://sass-lang.com/",
+  "github": "https://github.com/sass/sass",
+  "packageJson": [
+    "node-sass",
+    "gulp-sass",
+    "grunt-contrib-sass",
+    "grunt-sass",
+    "sass"
+  ],
+  "filePath": [
+    "**/*.{sass,scss}"
+  ]
+}
