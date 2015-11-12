@@ -1,0 +1,9 @@
+{
+  "name": "Shippable",
+  "description":  "Continuous Integration with Docker",
+  "homepage": "https://app.shippable.com/",
+  "github": null,
+  "filePath": [
+    "shippable.yml"
+  ]
+}
