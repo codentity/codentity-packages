@@ -1,0 +1,12 @@
+{
+  "name": "Vue",
+  "description": "Reactive Components for Modern Web Interfaces",
+  "homepage": "http://vuejs.org/",
+  "github": "https://github.com/vuejs/vue",
+  "packageJson": [
+    "vue"
+  ],
+  "bowerJson": [
+    "vue"
+  ]
+}
