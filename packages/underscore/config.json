@@ -1,0 +1,16 @@
+{
+  "name": "Underscore",
+  "description": "JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects.",
+  "homepage": "http://underscorejs.org/",
+  "github": "https://github.com/jashkenas/underscore",
+  "bowerJson":[
+    "underscore"
+  ],
+  "packageJson": [
+    "underscore"
+  ],
+  "filePath": [
+    "**/underscore.js",
+    "**/underscore.min.js"
+  ]
+}
