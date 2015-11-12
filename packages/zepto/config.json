@@ -1,0 +1,16 @@
+{
+  "name": "Zepto",
+  "description": "Zepto.js is a minimalist JavaScript library for modern browsers, with a jQuery-compatible API",
+  "homepage": "http://zeptojs.com/",
+  "github": "https://github.com/madrobby/zepto",
+  "filePath": [
+    "**/zepto.min.js",
+    "**/zepto.js"
+  ],
+  "bowerJson": [
+    "zepto"
+  ],
+  "packageJson": [
+    "zepto"
+  ]
+}
