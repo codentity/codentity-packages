@@ -8,7 +8,7 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'package.json'
   }]
 }];

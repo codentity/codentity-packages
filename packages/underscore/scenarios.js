@@ -42,16 +42,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/underscore.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/underscore.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'underscore.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'underscore.js'
   }]
 }];

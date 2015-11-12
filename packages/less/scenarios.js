@@ -53,10 +53,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'styles/file.less'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'file.less'
   }]
 }];

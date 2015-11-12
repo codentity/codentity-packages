@@ -24,7 +24,7 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'component.json'
   }]
 }];

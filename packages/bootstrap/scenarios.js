@@ -47,22 +47,22 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/bootstrap.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/bootstrap.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/bootstrap.css'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/bootstrap.min.css'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'bootstrap.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'bootstrap.min.js'
   }]
 }];

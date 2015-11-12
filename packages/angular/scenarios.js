@@ -54,16 +54,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/angular.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/angular.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'angular.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'angular.min.js'
   }]
 }];

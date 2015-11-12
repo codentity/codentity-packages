@@ -46,16 +46,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/qunit-1.20.0.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/qunit-1.20.0.css'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'qunit-1.20.0.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'qunit-1.20.0.css'
   }]
 }];

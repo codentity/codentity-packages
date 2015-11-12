@@ -47,22 +47,22 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/jquery.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/jquery.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/jquery.css'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/jquery.min.css'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'jquery.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'jquery.min.js'
   }]
 }];

@@ -49,22 +49,22 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/jquery-ui.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/jquery-ui.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/jquery-ui.css'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/jquery-ui.min.css'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'jquery-ui.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'jquery-ui.min.js'
   }]
 }];

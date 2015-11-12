@@ -25,10 +25,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'lib/file.jade'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'file.jade'
   }]
 }];

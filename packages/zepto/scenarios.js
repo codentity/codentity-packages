@@ -41,16 +41,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/zepto.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/zepto.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'zepto.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'zepto.min.js'
   }]
 }];

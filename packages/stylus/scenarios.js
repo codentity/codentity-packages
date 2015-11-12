@@ -26,10 +26,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'styles/file.styl'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'file.styl'
   }]
 }];

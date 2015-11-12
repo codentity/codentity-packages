@@ -34,16 +34,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'Gruntfile.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'Gruntfile.coffee'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'gruntfile.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'gruntfile.coffee'
   }]
 }];

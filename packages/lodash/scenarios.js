@@ -42,10 +42,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/lodash.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'lodash.js'
   }]
 }];

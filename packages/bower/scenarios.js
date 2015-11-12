@@ -26,10 +26,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: '.bowerrc'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'bower.json'
   }]
 }];

@@ -25,7 +25,7 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'Jakefile'
   }]
 }];

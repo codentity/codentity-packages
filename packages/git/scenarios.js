@@ -10,10 +10,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: '.gitignore'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: '.gitattributes'
   }]
 }];

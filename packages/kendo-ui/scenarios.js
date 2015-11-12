@@ -30,16 +30,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/kendo.all.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/kendo.ui.core.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'kendo.all.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'kendo.ui.core.min.js'
   }]
 }];

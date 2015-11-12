@@ -26,10 +26,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'brunch-config.coffee'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'brunch-config.js'
   }]
 }];

@@ -47,16 +47,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/dojo.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/dojo.js.uncompressed.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'dojo.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'dojo.js.uncompressed.js'
   }]
 }];

@@ -53,10 +53,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/handlebars-v4.0.4.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'handlebars-v4.0.4.js'
   }]
 }];

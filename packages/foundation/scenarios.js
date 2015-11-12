@@ -49,28 +49,28 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/foundation.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/foundation.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/foundation.css'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/foundation.min.css'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'foundation.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'foundation.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'foundation.css'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'foundation.min.css'
   }]
 }];

@@ -34,16 +34,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'Gulpfile.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'Gulpfile.coffee'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'gulpfile.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'gulpfile.coffee'
   }]
 }];

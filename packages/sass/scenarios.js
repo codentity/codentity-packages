@@ -51,16 +51,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'styles/file.sass'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'file.sass'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'styles/file.scss'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'file.scss'
   }]
 }];

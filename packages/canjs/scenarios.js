@@ -49,37 +49,37 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'can.dojo.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'can.dojo.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'can.jquery.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'can.jquery.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'can.mootools.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'can.mootools.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'can.yui.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'can.yui.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'can.zepto.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'can.zepto.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/can.zepto.min.js'
   }]
 }];

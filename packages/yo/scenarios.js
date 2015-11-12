@@ -28,7 +28,7 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: '.yo-rc.json'
   }]
 }];

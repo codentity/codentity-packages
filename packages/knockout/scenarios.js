@@ -41,10 +41,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/knockout-3.3.0.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'knockout-3.3.0.js'
   }]
 }];

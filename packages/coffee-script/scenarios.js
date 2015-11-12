@@ -38,13 +38,13 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'example.coffee'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'nested/example.coffee'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'deep/nested/example.coffee'
   }]
 }];

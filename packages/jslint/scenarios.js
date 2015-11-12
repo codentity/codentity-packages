@@ -36,10 +36,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: '.jslint.conf'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'jslint.conf'
   }]
 }];

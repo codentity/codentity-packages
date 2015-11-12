@@ -36,7 +36,7 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: '.jscsrc'
   }]
 }];

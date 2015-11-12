@@ -38,16 +38,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'test/karma.conf.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'test/karma.conf.coffee'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'karma.conf.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'karma.conf.coffee'
   }]
 }];

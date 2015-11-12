@@ -7,7 +7,7 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'shippable.yml'
   }]
 }];

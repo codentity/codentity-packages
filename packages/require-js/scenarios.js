@@ -40,10 +40,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/require.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'scripts/require.js'
   }]
 }];

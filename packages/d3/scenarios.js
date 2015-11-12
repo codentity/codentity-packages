@@ -45,16 +45,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/d3.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/d3.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'd3.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'd3.min.js'
   }]
 }];

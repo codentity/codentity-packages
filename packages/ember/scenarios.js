@@ -53,22 +53,22 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/ember.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/ember.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/ember.prod.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/ember.debug.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'ember.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'ember.min.js'
   }]
 }];

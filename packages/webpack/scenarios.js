@@ -35,7 +35,7 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'webpack.config.js'
   }]
 }];

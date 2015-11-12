@@ -26,10 +26,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/MooTools-Core-1.5.2.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'MooTools-Core-1.5.2.js'
   }]
 }];

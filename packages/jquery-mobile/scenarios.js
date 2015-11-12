@@ -51,22 +51,22 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/jquery.mobile-1.4.5.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/jquery.mobile-1.4.5.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/jquery.mobile-1.4.5.css'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/jquery.mobile-1.4.5.min.css'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'jquery.mobile-1.4.5.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'jquery.mobile-1.4.5.min.js'
   }]
 }];

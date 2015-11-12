@@ -37,10 +37,10 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: '.jshintrc'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: '.jshintignore'
   }]
 }];

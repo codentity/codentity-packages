@@ -46,16 +46,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/backbone.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/backbone-min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'backbone.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'backbone-min.js'
   }]
 }];

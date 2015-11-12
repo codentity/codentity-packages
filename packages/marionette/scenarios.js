@@ -49,16 +49,16 @@ module.exports = [{
     ]
   },
   output: [{
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/backbone.marionette.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'vendor/lib/backbone.marionette.min.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'backbone.marionette.js'
   }, {
-    src: 'file',
+    src: 'filePaths',
     filePath: 'backbone.marionette.min.js'
   }]
 }];
