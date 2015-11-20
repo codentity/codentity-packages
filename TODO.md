@@ -14,6 +14,7 @@ Below are some packages yet to add:
 - lodash
 - ejs
 - standard
+- fontawesome
 
 Also:
 
