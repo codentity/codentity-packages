@@ -1,0 +1,16 @@
+{
+  "name": "Moment.js",
+  "description": "Parse, validate, manipulate, and display dates in JavaScript.",
+  "homepage": "http://momentjs.com/",
+  "github": "https://github.com/moment/moment/",
+  "packageJson": [
+    "moment"
+  ],
+  "bowerJson": [
+    "moment"
+  ],
+  "filePaths": [
+    "**/moment.js",
+    "**/moment+locales.js"
+  ]
+}
