@@ -1,0 +1,19 @@
+{
+  "name": "Jam",
+  "description": "JavaScript package manager - using a browser-focused and RequireJS compatible repository",
+  "homepage": "http://jamjs.org/",
+  "github": "https://github.com/caolan/jam",
+  "packageJson": [
+    "jamjs"
+  ],
+  "filePaths": [
+    "jam/jam.json",
+    "jam/require.config.js",
+    "jam/require.js"
+  ],
+  "notes": [
+    "Jam used to use `jam.json` instead of `package.json`, until [July 2012](https://github.com/caolan/jam/commit/7242669b1fe6dec5a3830540363f14a0a60c67c8)",
+    "Jam can also be detected by using the `jam` property in a project's `package.json`",
+    "The install path for Jam can be customised in the project's `package.json`, by setting `jam.packageDir` to something other than `./jam`."
+  ]
+}
