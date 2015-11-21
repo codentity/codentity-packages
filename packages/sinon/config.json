@@ -1,0 +1,12 @@
+{
+  "name": "Sinon.JS",
+  "description": "Test spies, stubs and mocks for JavaScript.",
+  "homepage": "http://sinonjs.org/",
+  "github": "https://github.com/sinonjs/sinon",
+  "packageJson": [
+    "sinon"
+  ],
+  "filePaths": [
+    "**/sinon-*.*.*.js"
+  ]
+}
