@@ -1,0 +1,9 @@
+{
+  "name": "nock",
+  "description": "HTTP mocking and expectations library",
+  "homepage": null,
+  "github": "https://github.com/pgte/nock",
+  "packageJson": [
+    "nock"
+  ]
+}
