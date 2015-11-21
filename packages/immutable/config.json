@@ -1,0 +1,15 @@
+{
+  "name": "Immutable",
+  "description": "Immutable persistent data collections for Javascript which increase efficiency and simplicity.",
+  "homepage": "http://facebook.github.io/immutable-js/",
+  "github": "https://github.com/facebook/immutable-js",
+  "packageJson": [
+    "immutable"
+  ],
+  "bowerJson": [
+    "immutable"
+  ],
+  "filePaths": [
+    "**/immutable.min.js"
+  ]
+}
