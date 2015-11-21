@@ -1,0 +1,9 @@
+{
+  "name": "Flux",
+  "description": "An application architecture based on a unidirectional data flow",
+  "homepage": "http://facebook.github.io/flux/",
+  "github": "https://github.com/facebook/flux",
+  "packageJson": [
+    "flux"
+  ]
+}
