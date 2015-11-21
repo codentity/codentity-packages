@@ -1,0 +1,10 @@
+{
+  "name": "Coveralls",
+  "description": "Test Coverage History & Statistics",
+  "homepage": "https://coveralls.io/",
+  "github": null,
+  "packageJson": [
+    "coveralls",
+    "{grunt,gulp}-coveralls"
+  ]
+}
