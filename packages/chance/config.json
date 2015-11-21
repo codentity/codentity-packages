@@ -1,0 +1,16 @@
+{
+  "name": "Chance.js",
+  "description": "Random generator helper for JavaScript",
+  "homepage": "http://chancejs.com/",
+  "github": "https://github.com/victorquinn/chancejs",
+  "packageJson": [
+    "chance"
+  ],
+  "bowerJson": [
+    "chance"
+  ],
+  "filePaths": [
+    "**/chance.js",
+    "**/chance.min.js"
+  ]
+}
