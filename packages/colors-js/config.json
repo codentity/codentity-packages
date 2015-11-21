@@ -1,0 +1,9 @@
+{
+  "name": "colors.js",
+  "description": "get color and style in your node.js console",
+  "homepage": null,
+  "github": "https://github.com/Marak/colors.js",
+  "packageJson": [
+    "colors"
+  ]
+}
