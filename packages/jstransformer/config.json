@@ -1,0 +1,9 @@
+{
+  "name": "jstransformer",
+  "description": "Normalize the API of any jstransformer",
+  "homepage": null,
+  "github": "https://github.com/jstransformers/jstransformer",
+  "packageJson": [
+    "jstransformer"
+  ]
+}
