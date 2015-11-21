@@ -1,0 +1,12 @@
+{
+  "name": "q",
+  "description": "A tool for creating and composing asynchronous promises in JavaScript",
+  "homepage": "http://documentup.com/kriskowal/q/",
+  "github": "https://github.com/kriskowal/q",
+  "bowerJson": [
+    "q"
+  ],
+  "packageJson": [
+    "q"
+  ]
+}
