@@ -1,0 +1,9 @@
+{
+  "name": "Chalk",
+  "description": "Terminal string styling done right. Much color.",
+  "homepage": null,
+  "github": "https://github.com/chalk/chalk",
+  "packageJson": [
+    "chalk"
+  ]
+}
