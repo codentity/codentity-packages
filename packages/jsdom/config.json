@@ -1,0 +1,9 @@
+{
+  "name": "jsdom",
+  "description": "A JavaScript implementation of the WHATWG DOM and HTML standards, for use with node.js",
+  "homepage": null,
+  "github": "https://github.com/tmpvar/jsdom",
+  "packageJson": [
+    "jsdom"
+  ]
+}
