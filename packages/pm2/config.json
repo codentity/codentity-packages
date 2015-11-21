@@ -1,0 +1,12 @@
+{
+  "name": "pm2",
+  "description": "Production process manager for Node.js applications with a built-in load balancer",
+  "homepage": "http://pm2.keymetrics.io/",
+  "github": "https://github.com/Unitech/PM2",
+  "packageJson": [
+    "pm2"
+  ],
+  "notes": [
+    "The `pm2` module is usually installed globally, so will probably be under-identified."
+  ]
+}
