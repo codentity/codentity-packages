@@ -1,0 +1,9 @@
+{
+  "name": "co",
+  "description": "The ultimate generator based flow-control goodness for nodejs (supports thunks, promises, etc)",
+  "homepage": null,
+  "github": "https://github.com/tj/co",
+  "packageJson": [
+    "co"
+  ]
+}
