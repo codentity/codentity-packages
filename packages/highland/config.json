@@ -1,0 +1,9 @@
+{
+  "name": "Highland",
+  "description": "The high-level streams library for Node.js and the browser.",
+  "homepage": "http://highlandjs.org/",
+  "github": "https://github.com/caolan/highland",
+  "packageJson": [
+    "highland"
+  ]
+}
