@@ -1,0 +1,9 @@
+{
+  "name": "JavaScript Standard Style",
+  "description": "One Style to Rule Them All",
+  "homepage": "http://standardjs.com/",
+  "github": "http://standardjs.com/",
+  "packageJson": [
+    "standard"
+  ]
+}
