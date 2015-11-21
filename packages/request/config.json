@@ -1,0 +1,9 @@
+{
+  "name": "Request",
+  "description": "Simplified HTTP request client.",
+  "homepage": null,
+  "github": "https://github.com/request/request",
+  "packageJson": [
+    "request"
+  ]
+}
