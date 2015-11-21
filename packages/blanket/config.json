@@ -1,0 +1,15 @@
+{
+  "name": "Blanket",
+  "description": "Seamless javascript code coverage",
+  "homepage": "http://blanketjs.org/",
+  "github": "alex-seville/blanket",
+  "packageJson": [
+    "blanket"
+  ],
+  "filePaths": [
+    "**/blanket.min.js"
+  ],
+  "notes": [
+    "On the [Blanket homepage](http://blanketjs.org/) you can download the `blanket.min.js` file."
+  ]
+}
