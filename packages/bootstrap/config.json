@@ -14,5 +14,8 @@
     "**/bootstrap.min.js",
     "**/bootstrap.css",
     "**/bootstrap.min.css"
+  ],
+  "notes": [
+    "The file `bootstrap.js` is likely to be over-identified in many cases."
   ]
 }

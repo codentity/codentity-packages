@@ -7,6 +7,7 @@
     "jspm"
   ],
   "notes": [
-    "Codentity does not attribute `config.js` to jspm, as the file name is too generic."
+    "Codentity does not attribute `config.js` to jspm, as the file name is too generic.",
+    "Packages that support jspm are configured using the `jspm` property in `package.json`."
   ]
 }

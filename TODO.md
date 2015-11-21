@@ -2,19 +2,45 @@
 
 Below are some packages yet to add:
 
+- request
+- nock
+- istanbul
 - sinon
-- vows
+- tape
+- flux
+- highland
+- blanket
+- bluebird
+- q
+- moment
+- chalk
+- cheerio
+- nodeunit
+- standard
+- waterline
+- everyauth
+- co
+- jstransformer
+- casperjs
+- fontawesome
+- typescript
+
+- ejs
+- async
+- should
+- redis
+- connect
+- superagent
 - phantomjs
-- appveyor
 - compass
 - webdriver.io
-- typescript
 - jsx
-- underscore
-- lodash
-- ejs
-- standard
-- fontawesome
+
+- volo
+- spm
+- ender
+- angular-ui-router
+- angular-ui
 
 Also:
 
