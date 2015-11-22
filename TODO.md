@@ -2,29 +2,7 @@
 
 Below are some packages yet to add:
 
-- request
-- nock
-- istanbul
-- sinon
-- tape
-- flux
-- highland
-- blanket
-- bluebird
-- q
-- moment
-- chalk
-- cheerio
-- nodeunit
-- standard
 - waterline
-- everyauth
-- co
-- jstransformer
-- casperjs
-- fontawesome
-- typescript
-
 - ejs
 - async
 - should
@@ -35,7 +13,6 @@ Below are some packages yet to add:
 - compass
 - webdriver.io
 - jsx
-
 - volo
 - spm
 - ender
