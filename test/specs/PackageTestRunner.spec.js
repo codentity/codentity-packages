@@ -1,7 +1,7 @@
+/*global describe it expect */
 'use strict';
 
-let fs = require('fs');
-let path = require('path');
+let expect = require('chai').expect;
 let Codentity = require('codentity');
 let PackageHelper = require('../helpers/PackageHelper');
 
@@ -12,8 +12,6 @@ console.log(`---> ${PACKAGES.length} packages found`);
 let codentity = new Codentity({
   packages: PACKAGES
 });
-
-const PACKAGES_DIR = path.resolve(__dirname, '../../packages');
 
 describe('Codentity', function () {
   if (process.env.PACKAGE) return testPackage(process.env.PACKAGE);
@@ -48,6 +46,6 @@ function runScenario (pkgId, scenario) {
       console.dir(outputForPkg);
       console.log(err.stack);
       process.exit(1);
-    })
+    });
   });
 }
