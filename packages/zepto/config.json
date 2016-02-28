@@ -3,14 +3,14 @@
   "description": "Zepto.js is a minimalist JavaScript library for modern browsers, with a jQuery-compatible API",
   "homepage": "http://zeptojs.com/",
   "github": "https://github.com/madrobby/zepto",
-  "filePaths": [
+  "file": [
     "**/zepto.min.js",
     "**/zepto.js"
   ],
-  "bowerJson": [
+  "bower": [
     "zepto"
   ],
-  "packageJson": [
+  "npm": [
     "zepto"
   ]
 }

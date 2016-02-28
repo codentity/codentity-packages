@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'zepto',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'zepto',
@@ -37,19 +39,23 @@ module.exports = [{
       'vendor/lib/zepto.js',
       'vendor/lib/zepto.min.js',
       'zepto.js',
-      'zepto.min.js',
+      'zepto.min.js'
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/zepto.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/zepto.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'zepto.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'zepto.min.js'
   }]
