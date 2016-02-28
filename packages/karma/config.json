@@ -3,12 +3,12 @@
   "description": "Spectacular Test Runner for JavaScript",
   "homepage": "http://karma-runner.github.io/",
   "github": "https://github.com/karma-runner/karma",
-  "packageJson": [
+  "npm": [
     "karma",
     "grunt-karma",
     "gulp-karma"
   ],
-  "filePaths": [
+  "file": [
     "**/karma.conf.js",
     "**/karma.conf.coffee"
   ]

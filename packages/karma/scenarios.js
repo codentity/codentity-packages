@@ -11,16 +11,19 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'karma',
     dependencyGroup: 'devDependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'grunt-karma',
     dependencyGroup: 'devDependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'gulp-karma',
@@ -38,15 +41,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'test/karma.conf.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'test/karma.conf.coffee'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'karma.conf.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'karma.conf.coffee'
   }]
