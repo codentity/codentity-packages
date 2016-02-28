@@ -3,15 +3,15 @@
   "description": "Leaner CSS",
   "homepage": "http://lesscss.org/",
   "github": "https://github.com/less/less.js",
-  "packageJson": [
+  "npm": [
     "less",
     "gulp-less",
     "grunt-contrib-less"
   ],
-  "bowerJson": [
+  "bower": [
     "less"
   ],
-  "filePaths": [
+  "file": [
     "**/*.less"
   ]
 }
