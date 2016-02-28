@@ -3,10 +3,10 @@
   "description": "Robust, elegant, feature rich template engine for Node.js",
   "homepage": "http://jade-lang.com/",
   "github": "https://github.com/jadejs/jade",
-  "packageJson": [
+  "npm": [
     "jade"
   ],
-  "filePaths": [
+  "file": [
     "**/*.jade"
   ]
 }

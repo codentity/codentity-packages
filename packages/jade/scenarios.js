@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'jade',
@@ -25,9 +26,11 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'lib/file.jade'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'file.jade'
   }]
