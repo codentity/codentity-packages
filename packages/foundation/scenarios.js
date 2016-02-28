@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'foundation',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'foundation',
@@ -49,27 +51,35 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/foundation.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/foundation.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/foundation.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/foundation.min.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'foundation.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'foundation.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'foundation.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'foundation.min.css'
   }]

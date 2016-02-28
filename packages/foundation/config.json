@@ -3,13 +3,13 @@
   "description": null,
   "homepage": "http://foundation.zurb.com/",
   "github": null,
-  "packageJson": [
+  "npm": [
     "foundation"
   ],
-  "bowerJson": [
+  "bower": [
     "foundation"
   ],
-  "filePaths": [
+  "file": [
     "**/foundation.min.js",
     "**/foundation.js",
     "**/foundation.min.css",
