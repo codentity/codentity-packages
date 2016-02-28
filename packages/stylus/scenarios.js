@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'stylus',
@@ -26,9 +27,11 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'styles/file.styl'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'file.styl'
   }]

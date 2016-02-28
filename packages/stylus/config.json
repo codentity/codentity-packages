@@ -3,10 +3,10 @@
   "description":  "Expressive, dynamic, robust CSS",
   "homepage": "http://learnboost.github.io/stylus/",
   "github": "https://github.com/stylus/stylus",
-  "packageJson": [
+  "npm": [
     "stylus"
   ],
-  "filePaths": [
+  "file": [
     "**/*.styl"
   ],
   "notes": [
