@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'casperjs',
@@ -27,12 +28,15 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'bin/casperjs.exe'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'bin/casperjs'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'casperjs'
   }]

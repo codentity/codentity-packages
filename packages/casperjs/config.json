@@ -3,10 +3,10 @@
   "description": "Navigation scripting & testing utility for PhantomJS and SlimerJS",
   "homepage": "http://casperjs.org/",
   "github": "https://github.com/n1k0/casperjs",
-  "packageJson": [
+  "npm": [
     "casperjs"
   ],
-  "filePaths": [
+  "file": [
     "**/casperjs.exe",
     "**/casperjs"
   ]
