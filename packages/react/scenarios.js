@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '0.14.0',
     packageName: 'react',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '0.14.0',
     packageName: 'react',
