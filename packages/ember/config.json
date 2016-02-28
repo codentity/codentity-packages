@@ -3,14 +3,14 @@
   "description": "A framework for creating ambitious web applications",
   "homepage": "http://emberjs.com/",
   "github": "https://github.com/emberjs/ember.js/",
-  "packageJson": [
+  "npm": [
     "ember",
     "ember-cli"
   ],
-  "bowerJson": [
+  "bower": [
     "ember"
   ],
-  "filePaths": [
+  "file": [
     "**/ember.js",
     "**/ember.min.js",
     "**/ember.prod.js",
