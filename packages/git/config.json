@@ -3,7 +3,7 @@
   "description": "Fast, scalable, distributed revision control system",
   "homepage": "http://git-scm.com/",
   "github": "https://github.com/git/git",
-  "filePaths": [
+  "file": [
     ".gitattributes",
     ".gitignore",
     ".git/*"

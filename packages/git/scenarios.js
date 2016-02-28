@@ -10,9 +10,11 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: '.gitignore'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: '.gitattributes'
   }]
