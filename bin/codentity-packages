@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const PackageHelper = require('../test/helpers/PackageHelper');
+
+const PACKAGES = PackageHelper.loadSync();
+
+process.stdout.write(JSON.stringify(PACKAGES) + '\n');
