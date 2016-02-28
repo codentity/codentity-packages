@@ -3,7 +3,7 @@
   "description": "Frictionless browser package management",
   "homepage": "http://jspm.io/",
   "github": "https://github.com/jspm/jspm-cli",
-  "packageJson": [
+  "npm": [
     "jspm"
   ],
   "notes": [
