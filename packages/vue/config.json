@@ -3,10 +3,10 @@
   "description": "Reactive Components for Modern Web Interfaces",
   "homepage": "http://vuejs.org/",
   "github": "https://github.com/vuejs/vue",
-  "packageJson": [
+  "npm": [
     "vue"
   ],
-  "bowerJson": [
+  "bower": [
     "vue"
   ]
 }
