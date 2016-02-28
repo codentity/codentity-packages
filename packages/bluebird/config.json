@@ -3,10 +3,10 @@
   "description": "Bluebird is a full featured promise library with unmatched performance.",
   "homepage": "http://bluebirdjs.com/docs/getting-started.html",
   "github": "https://github.com/petkaantonov/bluebird",
-  "bowerJson": [
+  "bower": [
     "bluebird"
   ],
-  "packageJson": [
+  "npm": [
     "bluebird"
   ]
 }
