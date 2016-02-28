@@ -3,12 +3,12 @@
   "description": "DOM-less simple JavaScript testing framework",
   "homepage": "jasmine.github.io",
   "github": "https://github.com/jasmine/jasmine",
-  "packageJson": [
+  "npm": [
     "jasmine-node",
     "jasmine",
     "karma-jasmine"
   ],
-  "bowerJson": [
+  "bower": [
     "jasmine"
   ]
 }

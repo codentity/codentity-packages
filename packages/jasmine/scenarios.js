@@ -12,16 +12,19 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'jasmine',
     dependencyGroup: 'devDependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'jasmine-node',
     dependencyGroup: 'devDependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'karma-jasmine',
@@ -39,6 +42,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'jasmine',
