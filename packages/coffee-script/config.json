@@ -3,12 +3,12 @@
   "description": "Unfancy JavaScript",
   "homepage": "http://coffeescript.org/",
   "github": "https://github.com/jashkenas/coffeescript",
-  "packageJson": [
+  "npm": [
     "coffee-script",
     "grunt-contrib-coffee",
     "gulp-coffee"
   ],
-  "filePaths": [
+  "file": [
     "**/*.coffee"
   ]
 }

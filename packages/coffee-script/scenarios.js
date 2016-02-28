@@ -11,16 +11,19 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'coffee-script',
     dependencyGroup: 'dependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'grunt-contrib-coffee',
     dependencyGroup: 'dependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'gulp-coffee',
@@ -38,12 +41,15 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'example.coffee'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'nested/example.coffee'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'deep/nested/example.coffee'
   }]
