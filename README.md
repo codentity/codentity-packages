@@ -37,9 +37,9 @@ in the other packages.
   "description": "",
   "homepage": "",
   "github": "",
-  "bowerJson": ["PKG_NAME"],
-  "packageJson": ["PKG_NAME"],
-  "filePaths": ["FILE_PATH"]
+  "bower": ["PKG_NAME"],
+  "npm": ["PKG_NAME"],
+  "file": ["FILE_PATH"]
 }
 ```
 
@@ -58,6 +58,7 @@ module.exports = [{
   },
   // expected output for results[PKG_NAME]
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '1.0.0',
     packageName: 'PKG_NAME',
