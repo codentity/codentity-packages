@@ -3,7 +3,7 @@
   "description": "E2E test framework for Angular apps",
   "homepage": "http://www.protractortest.org/",
   "github": "https://github.com/angular/protractor",
-  "packageJson": [
+  "npm": [
     "protractor"
   ],
   "notes": [
