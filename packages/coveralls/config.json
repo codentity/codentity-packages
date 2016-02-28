@@ -3,7 +3,7 @@
   "description": "Test Coverage History & Statistics",
   "homepage": "https://coveralls.io/",
   "github": null,
-  "packageJson": [
+  "npm": [
     "coveralls",
     "{grunt,gulp}-coveralls"
   ]
