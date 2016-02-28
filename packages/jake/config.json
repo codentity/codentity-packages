@@ -3,10 +3,10 @@
   "description": null,
   "homepage": null,
   "github": null,
-  "packageJson": [
+  "npm": [
     "jake"
   ],
-  "filePaths": [
+  "file": [
     "Jakefile"
   ]
 }
