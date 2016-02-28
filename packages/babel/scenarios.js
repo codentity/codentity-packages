@@ -13,26 +13,31 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '1.0',
     packageName: 'babel',
     dependencyGroup: 'devDependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '1.1',
     packageName: 'gulp-babel',
     dependencyGroup: 'devDependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '1.2',
     packageName: 'grunt-babel',
     dependencyGroup: 'devDependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '1.3',
     packageName: 'babel-preset-react',
     dependencyGroup: 'devDependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '1.4',
     packageName: 'babel-preset-es2015',
@@ -48,6 +53,7 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: '.babelrc'
   }]
