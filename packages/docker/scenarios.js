@@ -8,9 +8,11 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'config/Dockerfile'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'Dockerfile'
   }]
