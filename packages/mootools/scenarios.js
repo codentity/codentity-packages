@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'mootools',
@@ -26,9 +27,11 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/MooTools-Core-1.5.2.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'MooTools-Core-1.5.2.js'
   }]
