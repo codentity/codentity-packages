@@ -9,6 +9,7 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: '.travis.yml'
   }]
