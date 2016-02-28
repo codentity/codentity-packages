@@ -10,11 +10,13 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'gulp',
     version: '1.*'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'gulp-cli',
@@ -34,15 +36,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'Gulpfile.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'Gulpfile.coffee'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'gulpfile.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'gulpfile.coffee'
   }]
