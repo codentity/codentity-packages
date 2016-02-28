@@ -3,7 +3,7 @@
   "description": "REST framework",
   "homepage": "http://restifyjs.com/",
   "github": "https://github.com/restify/node-restify",
-  "packageJson": [
+  "npm": [
     "restify"
   ]
 }
