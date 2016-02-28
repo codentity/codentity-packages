@@ -3,7 +3,7 @@
   "description": null,
   "homepage": "http://expressjs.com/",
   "github": null,
-  "packageJson": [
+  "npm": [
     "express"
   ]
 }
