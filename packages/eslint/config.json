@@ -3,12 +3,12 @@
   "description": "The pluggable linting utility for JavaScript and JSX",
   "homepage": "http://eslint.org/",
   "github": "github.com/eslint/eslint",
-  "packageJson": [
+  "npm": [
     "eslint",
     "gulp-eslint",
     "grunt-eslint"
   ],
-  "filePaths": [
+  "file": [
     ".eslintrc"
   ]
 }
