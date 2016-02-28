@@ -3,7 +3,7 @@
   "description": "One Style to Rule Them All",
   "homepage": "http://standardjs.com/",
   "github": "http://standardjs.com/",
-  "packageJson": [
+  "npm": [
     "standard"
   ]
 }
