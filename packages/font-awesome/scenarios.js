@@ -11,6 +11,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'font-awesome',
@@ -29,11 +30,13 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'font-awesome',
     dependencyGroup: 'dependencies'
   }, {
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'fontawesome',
@@ -52,15 +55,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/font-awesome.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/font-awesome.min.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'font-awesome.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'font-awesome.min.css'
   }]

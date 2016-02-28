@@ -3,14 +3,14 @@
   "description": "An application architecture based on a unidirectional data flow",
   "homepage": "http://fontawesome.io/",
   "github": "https://github.com/FortAwesome/Font-Awesome",
-  "packageJson": [
+  "npm": [
     "font-awesome"
   ],
-  "bowerJson": [
+  "bower": [
     "font-awesome",
     "fontawesome"
   ],
-  "filePaths": [
+  "file": [
     "**/font-awesome.css",
     "**/font-awesome.min.css"
   ]
