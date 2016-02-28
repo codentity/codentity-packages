@@ -3,7 +3,7 @@
   "description": "#1 Continuous Delivery service for Windows.",
   "homepage": "http://www.appveyor.com/",
   "github": null,
-  "filePaths": [
+  "file": [
     "appveyor.yml"
   ]
 }
