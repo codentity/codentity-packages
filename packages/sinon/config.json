@@ -3,10 +3,10 @@
   "description": "Test spies, stubs and mocks for JavaScript.",
   "homepage": "http://sinonjs.org/",
   "github": "https://github.com/sinonjs/sinon",
-  "packageJson": [
+  "npm": [
     "sinon"
   ],
-  "filePaths": [
+  "file": [
     "**/sinon-*.*.*.js"
   ]
 }

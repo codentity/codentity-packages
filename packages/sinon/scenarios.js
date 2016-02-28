@@ -4,11 +4,12 @@ module.exports = [{
     packageJson: {
       dependencies: {
         'sinon': '*',
-        'not-sinon': '*',
+        'not-sinon': '*'
       }
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'sinon',
@@ -25,9 +26,11 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/sinon-1.17.2.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'sinon-1.11.0.js'
   }]
