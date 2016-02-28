@@ -10,6 +10,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'jquery-mobile',
@@ -27,6 +28,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'jquery-mobile',
@@ -51,21 +53,27 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/jquery.mobile-1.4.5.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/jquery.mobile-1.4.5.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/jquery.mobile-1.4.5.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/jquery.mobile-1.4.5.min.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'jquery.mobile-1.4.5.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'jquery.mobile-1.4.5.min.js'
   }]

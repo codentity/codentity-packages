@@ -3,13 +3,13 @@
   "description": "Touch-Optimized Web Framework for Smartphones & Tablets",
   "homepage": "https://jquerymobile.com",
   "github": "https://github.com/jquery/jquery-mobile",
-  "packageJson": [
+  "npm": [
     "jquery-mobile"
   ],
-  "bowerJson": [
+  "bower": [
     "jquery-mobile"
   ],
-  "filePaths": [
+  "file": [
     "**/jquery.mobile-*.*.*.css",
     "**/jquery.mobile-*.*.*.js"
   ],
