@@ -5,6 +5,7 @@
   "description": "Packages (config/icons/tests) for Codentity",
   "dependencies": {},
   "devDependencies": {
+    "codentity": "~0.1.0",
     "chai": "^3.3.0",
     "mocha": "^2.3.3",
     "semistandard": "*"

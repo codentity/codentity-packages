@@ -2,7 +2,7 @@
 'use strict';
 
 let expect = require('chai').expect;
-let Codentity = require('../../../codentity');
+let Codentity = require('codentity');
 let PackageHelper = require('../helpers/PackageHelper');
 
 const PACKAGES = PackageHelper.loadSync();
