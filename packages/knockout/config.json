@@ -3,13 +3,13 @@
   "description": "Simplify dynamic JavaScript UIs with the Model-View-View Model (MVVM) pattern.",
   "homepage": "http://knockoutjs.com",
   "github": "https://github.com/knockout/knockout",
-  "packageJson": [
+  "npm": [
     "knockout"
   ],
-  "bowerJson": [
+  "bower": [
     "knockout"
   ],
-  "filePaths": [
+  "file": [
     "**/knockout-*.*.*.js"
   ]
 }
