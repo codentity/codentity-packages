@@ -11,16 +11,19 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'jshint',
     version: '1.*'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'gulp-jshint',
     version: '2.*'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'grunt-contrib-jshint',
@@ -37,9 +40,11 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: '.jshintrc'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: '.jshintignore'
   }]
