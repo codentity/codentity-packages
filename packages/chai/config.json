@@ -3,10 +3,10 @@
   "description": "BDD / TDD assertion framework for node.js and the browser that can be paired with any testing framework.",
   "homepage": "http://chaijs.com/",
   "github": "https://github.com/chaijs/chai",
-  "bowerJson": [
+  "bower": [
     "chai"
   ],
-  "packageJson": [
+  "npm": [
     "chai",
     "karma-chai"
   ]
