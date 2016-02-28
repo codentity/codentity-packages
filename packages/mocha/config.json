@@ -3,13 +3,13 @@
   "description": "Feature-rich JavaScript test framework running on Node.js and the browser",
   "homepage": "http://mochajs.org",
   "github": "https://github.com/mochajs/mocha",
-  "packageJson": [
+  "npm": [
     "mocha",
     "grunt-mocha",
     "grunt-mocha-test",
     "gulp-mocha"
   ],
-  "filePaths": [
+  "file": [
     "test/mocha.opts"
   ]
 }
