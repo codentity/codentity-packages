@@ -3,7 +3,7 @@
   "description": "Production process manager for Node.js applications with a built-in load balancer",
   "homepage": "http://pm2.keymetrics.io/",
   "github": "https://github.com/Unitech/PM2",
-  "packageJson": [
+  "npm": [
     "pm2"
   ],
   "notes": [
