@@ -13,11 +13,13 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '~1.2.27',
     packageName: 'angular',
     dependencyGroup: 'dependencies'
   }, {
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'angular-latest',
@@ -34,6 +36,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '~1.2.27',
     packageName: 'angular',
@@ -54,15 +57,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/angular.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/angular.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'angular.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'angular.min.js'
   }]
