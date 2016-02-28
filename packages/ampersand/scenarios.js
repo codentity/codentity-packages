@@ -13,11 +13,13 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '1.x',
     packageName: 'ampersand',
     dependencyGroup: 'dependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '3.x',
     packageName: 'ampersand-collection',

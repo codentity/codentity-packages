@@ -3,7 +3,7 @@
   "description": "A highly modular, loosely coupled, non-frameworky framework for building advanced JavaScript apps.",
   "homepage": "http://ampersandjs.com/",
   "github": "https://github.com/AmpersandJS/ampersand",
-  "packageJson": [
+  "npm": [
     "ampersand",
     "ampersand-*"
   ]
