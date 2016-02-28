@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'underscore',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'underscore',
@@ -38,19 +40,23 @@ module.exports = [{
       'vendor/lib/underscore.min.js',
       'underscore.min.js',
       'underscore.js',
-      'not-underscore.js',
+      'not-underscore.js'
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/underscore.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/underscore.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'underscore.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'underscore.js'
   }]

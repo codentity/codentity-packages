@@ -3,13 +3,13 @@
   "description": "JavaScript library that provides a whole mess of useful functional programming helpers without extending any built-in objects.",
   "homepage": "http://underscorejs.org/",
   "github": "https://github.com/jashkenas/underscore",
-  "bowerJson":[
+  "bower": [
     "underscore"
   ],
-  "packageJson": [
+  "npm": [
     "underscore"
   ],
-  "filePaths": [
+  "file": [
     "**/underscore.js",
     "**/underscore.min.js"
   ]
