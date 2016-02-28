@@ -3,13 +3,13 @@
   "description": "JavaScript library for DOM operations",
   "homepage": "https://jquery.com",
   "github": "https://github.com/jquery/jquery",
-  "packageJson": [
+  "npm": [
     "jquery"
   ],
-  "bowerJson": [
+  "bower": [
     "jquery"
   ],
-  "filePaths": [
+  "file": [
     "**/jquery.css",
     "**/jquery.js",
     "**/jquery.min.css",

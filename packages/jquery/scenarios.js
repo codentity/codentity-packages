@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '2.1.0',
     packageName: 'jquery',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '2.1.0',
     packageName: 'jquery',
@@ -47,21 +49,27 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/jquery.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/jquery.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/jquery.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/jquery.min.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'jquery.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'jquery.min.js'
   }]
