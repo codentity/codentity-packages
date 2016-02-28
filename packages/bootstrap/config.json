@@ -3,13 +3,13 @@
   "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
   "homepage": "http://getbootstrap.com/",
   "github": "https://github.com/twbs/bootstrap",
-  "packageJson": [
+  "npm": [
     "bootstrap"
   ],
-  "bowerJson": [
+  "bower": [
     "bootstrap"
   ],
-  "filePaths": [
+  "file": [
     "**/bootstrap.js",
     "**/bootstrap.min.js",
     "**/bootstrap.css",

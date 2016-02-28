@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '3.0',
     packageName: 'bootstrap',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '3.0',
     packageName: 'bootstrap',
@@ -47,21 +49,27 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/bootstrap.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/bootstrap.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/bootstrap.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/bootstrap.min.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'bootstrap.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'bootstrap.min.js'
   }]
