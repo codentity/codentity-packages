@@ -3,13 +3,13 @@
   "description": "An easy-to-use JavaScript Unit Testing framework.",
   "homepage": "http://qunitjs.com/",
   "github": "https://github.com/jquery/qunit",
-  "packageJson": [
+  "npm": [
     "qunitjs"
   ],
-  "bowerJson": [
+  "bower": [
     "qunit"
   ],
-  "filePaths": [
+  "file": [
     "**/qunit-*.*.*.{js,css}"
   ],
   "notes": [

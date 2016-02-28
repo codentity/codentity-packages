@@ -10,6 +10,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'qunitjs',
@@ -27,6 +28,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'qunit',
@@ -46,15 +48,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/qunit-1.20.0.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/qunit-1.20.0.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'qunit-1.20.0.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'qunit-1.20.0.css'
   }]
