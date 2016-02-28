@@ -3,10 +3,10 @@
   "description": "A package manager for the web",
   "homepage": "http://bower.io/",
   "github": "https://github.com/bower/bower",
-  "packageJson": [
+  "npm": [
     "bower"
   ],
-  "filePaths": [
+  "file": [
     ".bowerrc",
     "bower.json"
   ]
