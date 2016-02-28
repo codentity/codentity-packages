@@ -10,11 +10,13 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'handlebars',
     dependencyGroup: 'dependencies'
   }, {
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'handlebars.js',
@@ -32,11 +34,13 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'handlebars',
     dependencyGroup: 'dependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'hbs',
@@ -53,9 +57,11 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/handlebars-v4.0.4.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'handlebars-v4.0.4.js'
   }]

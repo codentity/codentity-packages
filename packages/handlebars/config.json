@@ -3,15 +3,15 @@
   "description": "Minimal Templating on Steroids",
   "homepage": "http://www.handlebarsjs.com/",
   "github": "https://github.com/wycats/handlebars.js/",
-  "packageJson": [
+  "npm": [
     "handlebars",
     "hbs"
   ],
-  "bowerJson": [
+  "bower": [
     "handlebars",
     "handlebars.js"
   ],
-  "filePaths": [
+  "file": [
     "**/handlebars-v*.*.*.js"
   ]
 }
