@@ -13,26 +13,31 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'node-sass',
     dependencyGroup: 'devDependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'gulp-sass',
     dependencyGroup: 'devDependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'grunt-contrib-sass',
     dependencyGroup: 'devDependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'grunt-sass',
     dependencyGroup: 'devDependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'sass',
@@ -51,15 +56,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'styles/file.sass'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'file.sass'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'styles/file.scss'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'file.scss'
   }]

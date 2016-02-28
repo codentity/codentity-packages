@@ -3,14 +3,14 @@
   "description":  "Sass makes CSS fun again.",
   "homepage": "http://sass-lang.com/",
   "github": "https://github.com/sass/sass",
-  "packageJson": [
+  "npm": [
     "node-sass",
     "gulp-sass",
     "grunt-contrib-sass",
     "grunt-sass",
     "sass"
   ],
-  "filePaths": [
+  "file": [
     "**/*.{sass,scss}"
   ]
 }
