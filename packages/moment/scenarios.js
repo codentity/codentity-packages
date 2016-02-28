@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'moment',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'moment',
@@ -44,15 +46,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/moment.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/moment+locales.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'moment.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'moment+locales.js'
   }]

@@ -3,13 +3,13 @@
   "description": "Parse, validate, manipulate, and display dates in JavaScript.",
   "homepage": "http://momentjs.com/",
   "github": "https://github.com/moment/moment/",
-  "packageJson": [
+  "npm": [
     "moment"
   ],
-  "bowerJson": [
+  "bower": [
     "moment"
   ],
-  "filePaths": [
+  "file": [
     "**/moment.js",
     "**/moment+locales.js"
   ]
