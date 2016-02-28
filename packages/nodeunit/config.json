@@ -3,7 +3,7 @@
   "description": "Easy unit testing in node.js and the browser, based on the assert module.",
   "homepage": null,
   "github": "https://github.com/caolan/nodeunit",
-  "packageJson": [
+  "npm": [
     "nodeunit"
   ]
 }
