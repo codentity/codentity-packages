@@ -3,7 +3,7 @@
   "description": "Lint your CoffeeScript",
   "homepage": "http://www.coffeelint.org/",
   "github": "https://github.com/clutchski/coffeelint",
-  "packageJson": [
+  "npm": [
     "coffeelint",
     "gulp-coffeelint",
     "grunt-coffeelint",

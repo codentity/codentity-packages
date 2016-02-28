@@ -13,21 +13,25 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '1.1',
     packageName: 'coffeelint',
     dependencyGroup: 'dependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '1.2',
     packageName: 'gulp-coffeelint',
     dependencyGroup: 'dependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '1.3',
     packageName: 'grunt-coffeelint',
     dependencyGroup: 'dependencies'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     version: '1.4',
     packageName: 'coffeelint-brunch',
