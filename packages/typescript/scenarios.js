@@ -4,11 +4,12 @@ module.exports = [{
     packageJson: {
       dependencies: {
         'typescript': '*',
-        'not-typescript': '*',
+        'not-typescript': '*'
       }
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'typescript',
@@ -26,12 +27,15 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'lib/example.ts'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'SAMPLE.ts'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: '1.0.0.ts'
   }]

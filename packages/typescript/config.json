@@ -3,10 +3,10 @@
   "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
   "homepage": "http://www.typescriptlang.org/",
   "github": "https://github.com/microsoft/typescript",
-  "packageJson": [
+  "npm": [
     "typescript"
   ],
-  "filePaths": [
+  "file": [
     "**/*.ts"
   ]
 }
