@@ -3,13 +3,13 @@
   "description": "A JavaScript toolkit that saves you time and scales with your development process.",
   "homepage": "http://dojotoolkit.org/",
   "github": "https://github.com/dojo/dojo",
-  "bowerJson": [
+  "bower": [
     "dojo"
   ],
-  "packageJson": [
+  "npm": [
     "dojo"
   ],
-  "filePaths": [
+  "file": [
     "**/dojo.js.uncompressed.js",
     "**/dojo.js"
   ],

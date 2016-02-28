@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'dojo',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'dojo',
@@ -47,15 +49,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/dojo.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/dojo.js.uncompressed.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'dojo.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'dojo.js.uncompressed.js'
   }]
