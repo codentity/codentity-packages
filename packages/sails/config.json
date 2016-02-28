@@ -3,10 +3,10 @@
   "description":  "Realtime MVC Framework for Node.js",
   "homepage": "http://sailsjs.org/",
   "github": "https://github.com/balderdashy/sails",
-  "packageJson": [
+  "npm": [
     "sails"
   ],
-  "filePaths": [
+  "file": [
     ".sailsrc"
   ]
 }
