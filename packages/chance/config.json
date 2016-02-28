@@ -3,13 +3,13 @@
   "description": "Random generator helper for JavaScript",
   "homepage": "http://chancejs.com/",
   "github": "https://github.com/victorquinn/chancejs",
-  "packageJson": [
+  "npm": [
     "chance"
   ],
-  "bowerJson": [
+  "bower": [
     "chance"
   ],
-  "filePaths": [
+  "file": [
     "**/chance.js",
     "**/chance.min.js"
   ]

@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'chance',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'chance',
@@ -42,15 +44,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/chance.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/chance.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'chance.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'chance.min.js'
   }]
