@@ -3,7 +3,7 @@
   "description": "A simple, lightweight network daemon to collect metrics over UDP",
   "homepage": "https://codeascraft.com/2011/02/15/measure-anything-measure-everything/",
   "github": "https://github.com/etsy/statsd",
-  "packageJson": [
+  "npm": [
     "statsd"
   ]
 }
