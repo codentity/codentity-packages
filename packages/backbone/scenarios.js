@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '1.*',
     packageName: 'backbone',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '1.*',
     packageName: 'backbone',
@@ -46,15 +48,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/backbone.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/backbone-min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'backbone.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'backbone-min.js'
   }]

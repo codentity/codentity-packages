@@ -3,13 +3,13 @@
   "description": "Give your JS App some Backbone with Models, Views, Collections, and Events",
   "homepage": "http://backbonejs.org/",
   "github": "https://github.com/jashkenas/backbone",
-  "bowerJson": [
+  "bower": [
     "backbone"
   ],
-  "packageJson": [
+  "npm": [
     "backbone"
   ],
-  "filePaths": [
+  "file": [
     "**/backbone.js",
     "**/backbone-min.js"
   ]
