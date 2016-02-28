@@ -11,16 +11,19 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'jscs',
     version: '1.*'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'gulp-jscs',
     version: '2.*'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'grunt-jscs',
@@ -36,6 +39,7 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: '.jscsrc'
   }]
