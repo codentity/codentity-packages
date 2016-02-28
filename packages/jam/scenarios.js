@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'jamjs',
@@ -26,12 +27,15 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'jam/jam.json'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'jam/require.config.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'jam/require.js'
   }]

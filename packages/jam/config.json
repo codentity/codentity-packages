@@ -3,10 +3,10 @@
   "description": "JavaScript package manager - using a browser-focused and RequireJS compatible repository",
   "homepage": "http://jamjs.org/",
   "github": "https://github.com/caolan/jam",
-  "packageJson": [
+  "npm": [
     "jamjs"
   ],
-  "filePaths": [
+  "file": [
     "jam/jam.json",
     "jam/require.config.js",
     "jam/require.js"
