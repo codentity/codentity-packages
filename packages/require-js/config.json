@@ -3,13 +3,13 @@
   "description": "JavaScript file and module loader, optimized for in-browser use",
   "homepage": "http://requirejs.org/",
   "github": "https://github.com/jrburke/requirejs",
-  "packageJson": [
+  "npm": [
     "requirejs"
   ],
-  "bowerJson": [
+  "bower": [
     "requirejs"
   ],
-  "filePaths": [
+  "file": [
     "*/**/require.js"
   ],
   "notes": [
