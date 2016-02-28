@@ -3,7 +3,7 @@
   "description": "node.js auth package (password, facebook, & more) for Connect and Express apps",
   "homepage": "http://everyauth.com/",
   "github": "https://github.com/bnoguchi/everyauth",
-  "packageJson": [
+  "npm": [
     "everyauth"
   ]
 }
