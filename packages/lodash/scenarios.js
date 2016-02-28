@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'lodash',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'lodash',
@@ -38,13 +40,15 @@ module.exports = [{
       'vendor/lib/lodash.min.js',
       'lodash.min.js',
       'lodash.js',
-      'not-lodash.js',
+      'not-lodash.js'
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/lodash.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'lodash.js'
   }]

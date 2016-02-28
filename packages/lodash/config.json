@@ -3,13 +3,13 @@
   "description": "A JavaScript utility library delivering consistency, modularity, performance, & extras.",
   "homepage": "https://lodash.com/",
   "github": "https://github.com/lodash/lodash",
-  "bowerJson":[
+  "bower": [
     "lodash"
   ],
-  "packageJson": [
+  "npm": [
     "lodash"
   ],
-  "filePaths": [
+  "file": [
     "**/lodash.js"
   ]
 }
