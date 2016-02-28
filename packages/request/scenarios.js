@@ -4,11 +4,12 @@ module.exports = [{
     packageJson: {
       dependencies: {
         'request': '*',
-        'not-request': '*',
+        'not-request': '*'
       }
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'request',
