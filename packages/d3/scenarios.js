@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'd3',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'd3',
@@ -45,15 +47,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/d3.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/d3.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'd3.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'd3.min.js'
   }]
