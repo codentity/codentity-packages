@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'brunch',
@@ -26,9 +27,11 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'brunch-config.coffee'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'brunch-config.js'
   }]
