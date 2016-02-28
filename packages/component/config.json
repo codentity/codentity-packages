@@ -3,10 +3,10 @@
   "description": "frontend package manager and build tool for modular web applications",
   "homepage": "https://github.com/componentjs/component",
   "github": "https://github.com/componentjs/component",
-  "packageJson": [
+  "npm": [
     "component"
   ],
-  "filePaths": [
+  "file": [
     "component.json"
   ],
   "notes": [
