@@ -16,8 +16,8 @@ class PackageHelper {
     return new PackageHelper().getScenario(pkgId);
   }
   listSync () {
-    var filePaths = fs.readdirSync(PACKAGE_DIR);
-    return this._getPackagesFromFilePaths(filePaths);
+    var filePath = fs.readdirSync(PACKAGE_DIR);
+    return this._getPackagesFromfilePath(filePath);
   }
   loadSync () {
     return this._getAllPackageConfig(this.listSync());
@@ -25,8 +25,8 @@ class PackageHelper {
   getScenario (pkgId) {
     return require(`${PACKAGE_DIR}/${pkgId}/scenarios.js`);
   }
-  _getPackagesFromFilePaths (filePaths) {
-    return filePaths.filter(function (pkgId) {
+  _getPackagesFromfilePath (filePath) {
+    return filePath.filter(function (pkgId) {
       return pkgId !== '.DS_Store';
     });
   }
