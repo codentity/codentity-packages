@@ -11,6 +11,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'kendo-ui-core',
@@ -30,15 +31,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/kendo.all.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/kendo.ui.core.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'kendo.all.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'kendo.ui.core.min.js'
   }]
