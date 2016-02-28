@@ -3,7 +3,7 @@
   "description": "next generation web framework for node.js",
   "homepage": "http://koajs.com",
   "github": "https://github.com/koajs/koa",
-  "packageJson": [
+  "npm": [
     "koa"
   ]
 }
