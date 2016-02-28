@@ -3,7 +3,7 @@
   "description": "Open source Node.js framework built on top of Express optimized for building APIs for mobile, web, and other devices.",
   "homepage": "http://loopback.io/",
   "github": "https://github.com/strongloop/loopback",
-  "packageJson": [
+  "npm": [
     "loopback"
   ]
 }
