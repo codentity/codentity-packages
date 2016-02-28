@@ -3,7 +3,7 @@
   "description":  "Realtime application framework (Node.JS server)",
   "homepage": "http://socket.io/",
   "github": "https://github.com/socketio/socket.io",
-  "packageJson": [
+  "npm": [
     "socket.io"
   ]
 }
