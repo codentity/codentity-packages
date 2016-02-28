@@ -3,7 +3,7 @@
   "description":  "Continuous Integration with Docker",
   "homepage": "https://app.shippable.com/",
   "github": null,
-  "filePaths": [
+  "file": [
     "shippable.yml"
   ]
 }
