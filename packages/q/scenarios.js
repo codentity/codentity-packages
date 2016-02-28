@@ -4,11 +4,12 @@ module.exports = [{
     packageJson: {
       dependencies: {
         'q': '*',
-        'not-q': '*',
+        'not-q': '*'
       }
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'q',
@@ -20,11 +21,12 @@ module.exports = [{
     bowerJson: {
       dependencies: {
         'q': '*',
-        'not-q': '*',
+        'not-q': '*'
       }
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'q',
