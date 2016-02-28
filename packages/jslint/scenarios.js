@@ -11,16 +11,19 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'jslint',
     version: '1.*'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'gulp-jslint',
     version: '2.*'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'grunt-jslint',
@@ -36,9 +39,11 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: '.jslint.conf'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'jslint.conf'
   }]
