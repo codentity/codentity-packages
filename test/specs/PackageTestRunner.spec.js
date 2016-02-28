@@ -33,9 +33,9 @@ function runScenario (pkgId, scenario) {
     var outputForPkg;
     Codentity.packages(PACKAGES)
     .filePaths(scenario.input.filePaths || [])
-    .register(require('../../../codentity-plugin-file'))
-    .register(require('../../../codentity-plugin-npm'))
-    .register(require('../../../codentity-plugin-bower'))
+    .register(require('codentity-plugin-file'))
+    .register(require('codentity-plugin-npm'))
+    .register(require('codentity-plugin-bower'))
     .provide((query, key) => {
       return scenario.input[key];
     })

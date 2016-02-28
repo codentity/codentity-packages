@@ -5,8 +5,11 @@
   "description": "Packages (config/icons/tests) for Codentity",
   "dependencies": {},
   "devDependencies": {
-    "codentity": "~0.1.0",
     "chai": "^3.3.0",
+    "codentity": "github:codentity/codentity",
+    "codentity-plugin-bower": "github:codentity/codentity-plugin-bower",
+    "codentity-plugin-file": "github:codentity/codentity-plugin-file",
+    "codentity-plugin-npm": "github:codentity/codentity-plugin-npm",
     "mocha": "^2.3.3",
     "semistandard": "*"
   },
