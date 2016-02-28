@@ -3,10 +3,10 @@
   "description": "Seamless javascript code coverage",
   "homepage": "http://blanketjs.org/",
   "github": "alex-seville/blanket",
-  "packageJson": [
+  "npm": [
     "blanket"
   ],
-  "filePaths": [
+  "file": [
     "**/blanket.min.js"
   ],
   "notes": [

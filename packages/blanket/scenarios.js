@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'blanket',
@@ -27,9 +28,11 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/blanket.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'blanket.min.js'
   }]
