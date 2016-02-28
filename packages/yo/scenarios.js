@@ -10,6 +10,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'yo',
@@ -24,10 +25,11 @@ module.exports = [{
       'config/.yo-rc',
       '.yo-rc.json',
       'yo-rc.json',
-      '.yo-rc',
+      '.yo-rc'
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: '.yo-rc.json'
   }]
