@@ -3,7 +3,7 @@
   "description": "tap-producing test harness for node and browsers",
   "homepage": null,
   "github": "https://github.com/substack/tape",
-  "packageJson": [
+  "npm": [
     "tape"
   ]
 }
