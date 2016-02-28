@@ -3,7 +3,7 @@
   "description": "Simple, unobtrusive authentication for Node.js",
   "homepage": "http://passportjs.org/",
   "github": "https://github.com/jaredhanson/passport",
-  "packageJson": [
+  "npm": [
     "passport"
   ]
 }
