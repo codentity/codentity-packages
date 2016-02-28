@@ -10,11 +10,13 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'grunt',
     version: '1.*'
   }, {
+    plugin: 'npm',
     src: 'packageJson',
     dependencyGroup: 'devDependencies',
     packageName: 'grunt-cli',
@@ -34,15 +36,19 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'Gruntfile.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'Gruntfile.coffee'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'gruntfile.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'gruntfile.coffee'
   }]
