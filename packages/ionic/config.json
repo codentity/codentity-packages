@@ -3,13 +3,13 @@
   "description": "Advanced HTML5 mobile development framework and SDK. Build incredible mobile apps with web technologies you already know and love. Best friends with AngularJS.",
   "homepage": "http://ionicframework.com/",
   "github": "https://github.com/driftyco/ionic",
-  "packageJson": [
+  "npm": [
     "ionic"
   ],
-  "bowerJson": [
+  "bower": [
     "ionic"
   ],
-  "filePaths": [
+  "file": [
     "ionic.project"
   ]
 }

@@ -9,6 +9,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'ionic',
@@ -25,6 +26,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'ionic',
@@ -40,6 +42,7 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'ionic.project'
   }]
