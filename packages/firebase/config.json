@@ -3,13 +3,13 @@
   "description": "A powerful platform for your mobile or web application",
   "homepage": "https://www.firebase.com",
   "github": null,
-  "packageJson": [
+  "npm": [
     "firebase"
   ],
-  "bowerJson": [
+  "bower": [
     "firebase"
   ],
-  "filePaths": [
+  "file": [
     "firebase.json"
   ]
 }
