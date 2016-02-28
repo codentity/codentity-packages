@@ -3,14 +3,14 @@
   "description": "Marionette simplifies your Backbone application code with robust views and architecture solutions.",
   "homepage": "http://marionettejs.com/",
   "github": "https://github.com/marionettejs/backbone.marionette",
-  "packageJson": [
+  "npm": [
     "backbone.marionette"
   ],
-  "bowerJson": [
+  "bower": [
     "marionette",
     "backbone.marionette"
   ],
-  "filePaths": [
+  "file": [
     "**/backbone.marionette{.min,}.js"
   ],
   "notes": [
