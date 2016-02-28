@@ -3,7 +3,7 @@
   "description": "Fast, flexible, and lean implementation of core jQuery designed specifically for the server.",
   "homepage": "http://cheeriojs.github.io/cheerio/",
   "github": "https://github.com/cheeriojs/cheerio",
-  "packageJson": [
+  "npm": [
     "cheerio"
   ]
 }
