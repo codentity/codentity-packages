@@ -10,6 +10,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'npm',
     src: 'packageJson',
     version: '*',
     packageName: 'jquery-ui',
@@ -27,6 +28,7 @@ module.exports = [{
     }
   },
   output: [{
+    plugin: 'bower',
     src: 'bowerJson',
     version: '*',
     packageName: 'jquery-ui',
@@ -49,21 +51,27 @@ module.exports = [{
     ]
   },
   output: [{
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/jquery-ui.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/jquery-ui.min.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/jquery-ui.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'vendor/lib/jquery-ui.min.css'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'jquery-ui.js'
   }, {
+    plugin: 'file',
     src: 'filePaths',
     filePath: 'jquery-ui.min.js'
   }]

@@ -3,13 +3,13 @@
   "description": "The official jQuery user interface library",
   "homepage": "https://jqueryui.com",
   "github": "https://github.com/jquery/jquery-ui",
-  "packageJson": [
+  "npm": [
     "jquery-ui"
   ],
-  "bowerJson": [
+  "bower": [
     "jquery-ui"
   ],
-  "filePaths": [
+  "file": [
     "**/jquery-ui.css",
     "**/jquery-ui.js",
     "**/jquery-ui.min.css",
